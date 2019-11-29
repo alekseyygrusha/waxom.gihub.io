@@ -170,7 +170,7 @@ section {
   color: white;
 }
 .link-button::after {
-  content: url(/assets/css/img/arrow.svg);
+  content: url(assets/css/img/arrow.svg);
   margin-left: 10px;
 }
 header {
@@ -320,7 +320,7 @@ header .header-wrap nav .icon:hover img {
   bottom: 0;
 }
 .your-ideas .container .img-container .left {
-  background-image: url(/assets/css/img/browser-left.png);
+  background-image: url(assets/css/img/browser-left.png);
   width: 770px;
   height: 400px;
   left: 0;
@@ -336,7 +336,7 @@ header .header-wrap nav .icon:hover img {
   height: 100%;
 }
 .your-ideas .container .img-container .right {
-  background-image: url(/assets/css/img/browser-right.png);
+  background-image: url(assets/css/img/browser-right.png);
   width: 770px;
   height: 400px;
   right: 0;
@@ -398,7 +398,7 @@ header .header-wrap nav .icon:hover img {
   color: white;
 }
 .video {
-  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url(/assets/css/img/intro-video.png);
+  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url(assets/css/img/intro-video.png);
   background-size: cover;
   min-height: 705px;
 }
@@ -472,7 +472,7 @@ header .header-wrap nav .icon:hover img {
 }
 .mobile .container .text ul li:before {
   margin-right: 29px;
-  content: url(/assets/css/img/01.png);
+  content: url(assets/css/img/01.png);
 }
 .statistics {
   background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
@@ -607,7 +607,7 @@ header .header-wrap nav .icon:hover img {
   color: #c7b299;
 }
 .logo-intro {
-  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url(/assets/css/img/logo-intro.png);
+  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url(assets/css/img/logo-intro.png);
   min-height: 489px;
   background-size: cover;
 }

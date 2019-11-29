@@ -1,0 +1,94 @@
+@media (max-width: 1280px) {
+  header .header-wrap {
+    flex-direction: column;
+  }
+  header .header-wrap nav {
+    margin-top: 10px;
+  }
+  .up_footer .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .up_footer .container .block {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 980px) {
+  header .header-wrap {
+    flex-direction: row;
+    padding: 0 15px 0 15px;
+  }
+  header .header-wrap .mobile-menu {
+    display: flex;
+  }
+  header .header-wrap .main_menu li,
+  header .header-wrap .main_menu .baggage {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .grid .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid .container .block {
+    max-width: 420px;
+  }
+  .grid .container .block:after {
+    left: 42%;
+  }
+  .your-ideas .container .img-container .left,
+  .your-ideas .container .img-container .right {
+    display: none;
+  }
+  .wordpress {
+    height: 200px;
+  }
+  .wordpress .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .projects .container .nav-bar {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .projects .container .nav-bar li {
+    margin-bottom: 10px;
+  }
+  .mobile .container .mobile-background {
+    display: none;
+  }
+  .mobile .container .text {
+    margin-top: 0px;
+    padding-left: 4px;
+  }
+  .mobile .container .text h3 {
+    text-align: center;
+  }
+  .statistics .container {
+    flex-direction: column;
+  }
+  .statistics .container .stat-block {
+    margin: 0;
+    margin: 25px 0 15px 0;
+  }
+  .statistics .container .stat-block img,
+  .statistics .container .stat-block h1,
+  .statistics .container .stat-block small {
+    margin-bottom: 18px;
+  }
+  .up_footer .container .logo_block,
+  .up_footer .container .recent_block,
+  .up_footer .container .twitter_block {
+    margin-bottom: 25px;
+  }
+  .down_footer .container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 680px) {
+  header .header-wrap .logo .logo_name {
+    display: none;
+  }
+}
